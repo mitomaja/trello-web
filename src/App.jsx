@@ -1,5 +1,10 @@
-import { useState } from 'react'
 import './App.css'
+import Board from './pages/Boards/_id'
+
+function App() {
+  return (
+    <>
+      <Board/>
 import Button from '@mui/material/Button'
 import AccessAlarmIcon from '@mui/icons-material/AccessAlarm'
 import ThreeDRotation from '@mui/icons-material/ThreeDRotation'
@@ -8,7 +13,6 @@ import { pink } from '@mui/material/colors'
 import Typography from '@mui/material/Typography'
 
 function App() {
-
   return (
     <>
       <div>test</div>
@@ -28,5 +32,4 @@ function App() {
     </>
   )
 }
-
 export default App
